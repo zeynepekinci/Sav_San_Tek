@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Tailwind  CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="giris.css" />
+    <title>SavSanTek Giriş</title>
+  </head>
+  <body>
+    <div class="background" id="background"></div>
+    <div class="bg-white rounded p-10 text-center shadow-md">
+      <h1 class="text-lg font-bold text-blue-1200">GİRİŞ YAP</h1>
+      <p class="text-sm text-gray-1300">
+       İlginizi Çeken bilgileri kayıt altına alabilmek için bilgilerinizi giriniz <br> Herhangi bir sorunuz olursa
+        <span class="font-bold text-blue-500">hzeynepekinci@gmail.com</span>
+      </p>
+      <div class="my-4 text-left">
+        <label for="email" class="text-gray-900">E-Mail:</label>
+        <input
+          type="text"
+          class="border block w-full p-2 mt-2 rounded"
+          id="email"
+          placeholder="Lütfen Mail Adresinizi Giriniz"
+        />
+      </div>
+      <div class="my-4 text-left">
+        <label for="password" class="text-gray-900" id="passwordLabel"
+          >Şifre</label
+        >
+        <input
+          type="password"
+          class="border block w-full p-2 mt-2 rounded"
+          id="password"
+          placeholder="Lütfen Şifrenizi Giriniz"
+        />
+      </div>
+      <button
+      
+        class="bg-purple-800 text-white py-2 mt-2 inline-block w-full rounded"
+        
+        type="submit"
+      >
+        Giriş  
+
+
+      </button>
+    </div>
+    <script src="giris.js"></script>
+  </body>
+</html>

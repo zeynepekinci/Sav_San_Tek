@@ -1,0 +1,324 @@
+/* Resetleme Kodları Başladı */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Herr+Von+Muellerhoff&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+a,
+a:link
+a:visited{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+ul,
+li{
+    list-style: none; /*Liste etiketini iptal etmek için*/
+    margin: 0;
+    padding: 0;
+}
+section,
+span,
+p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+/* Resetleme Kodları Bitti*/
+
+/* Anasayfa*/
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: 'Cherry Swash', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    background-image: url(Photo/Kizilelma.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.navbar ul li a.active,
+ .navbar ul li a:hover{
+     background: rgb(6, 15, 134); 
+     color: rgba(244, 235, 77, 0.877);
+
+ }
+.header.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    margin-top: -535px;
+    margin-left: -55px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom: 5px solid rgb(6, 15, 134);
+    border-radius: 35px;
+    padding-bottom: 5px;
+}
+
+ ul{
+     display: flex;
+}
+
+ li{
+     margin-left: 27px;
+     margin-top: 40px;
+}
+
+ li:first-child{
+    margin-right: 8px;
+}
+
+ a{
+    color: rgb(6, 15, 134);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header.text {
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 130%;
+}
+
+.header.text:hover{
+    color: rgba(230, 9, 9, 0.877);
+    width: 600px;
+    text-align: center;
+}
+
+.button{
+    background: none;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+    font-size: 180%;
+    display: flex;
+    background-color: rgb(52, 96, 180) ;
+    color: rgba(244, 235, 77, 0.877);
+    padding: 5px 15px;
+    border-top-left-radius:35px ;
+    border-bottom-right-radius: 35px;
+}
+
+.button:hover{
+     opacity: 0.8;
+     color: white;
+     background-color: rgb(240, 198, 93);
+}
+
+
+/* Bu haftaki Konumuz */
+
+.about{
+    margin-bottom: 150px;
+}
+
+.about-title{
+    margin: 60px 0;
+}
+
+.about-title h2{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(6, 15, 134);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-title h2::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-img{
+    width: 80%;
+}
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text{
+    width: 59%;
+}
+
+h4{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(6, 15, 134);
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1,75rem;
+    font-weight: 0;
+}
+
+/* 
+#asteriks{
+    color: brown;
+    margin-bottom: 25px;
+    text-align: center;
+} 
+*/
+
+.about-text p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(6, 15, 134);    
+}
+
+/*İletişim*/
+
+.contact{
+    padding: 40px 0;
+}
+
+.contact h2{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(34, 42, 115);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact h2::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-content{
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.contanct-item{
+    display: flex;
+    align-items: center;
+    flex-basis: 33%;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.contanct-item font{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(34, 42, 115);
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: 5;
+}
+
+.contanct-item p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+/*Hakkımızda*/
+
+footer {
+    background-color: var(--assistant-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.6rem;
+  }
+  
+  footer h3 {
+    letter-spacing: 10px;
+    font-size: 35px;
+    color: rgb(34, 42, 115);
+    margin-bottom: 0.10rem;
+    font-style: italic;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  footer ul li {
+    list-style-type: none;
+    margin-right: 1rem;
+    display: inline;
+  }
+  
+  footer ul li a {
+    color: #2066a0;
+    text-decoration: none;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+  }
+  
+  footer small {
+    margin-top: 0.9rem;
+    color: #8197a4;
+    font-size: 1rem;
+  }
+  
